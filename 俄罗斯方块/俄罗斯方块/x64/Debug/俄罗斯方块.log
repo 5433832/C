@@ -1,0 +1,12 @@
+﻿  game.c
+C:\Users\Lenovo\Desktop\C语言俄罗斯方块\俄罗斯方块\俄罗斯方块\data.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\Lenovo\Desktop\C语言俄罗斯方块\俄罗斯方块\俄罗斯方块\game.c(113,10): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Lenovo\Desktop\C语言俄罗斯方块\俄罗斯方块\俄罗斯方块\game.c(148,10): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Lenovo\Desktop\C语言俄罗斯方块\俄罗斯方块\俄罗斯方块\game.c(178,10): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Lenovo\Desktop\C语言俄罗斯方块\俄罗斯方块\俄罗斯方块\game.c(180,10): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Lenovo\Desktop\C语言俄罗斯方块\俄罗斯方块\俄罗斯方块\game.c(182,10): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Lenovo\Desktop\C语言俄罗斯方块\俄罗斯方块\俄罗斯方块\game.c(184,10): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Lenovo\Desktop\C语言俄罗斯方块\俄罗斯方块\俄罗斯方块\game.c(503,14): warning C4566: 由通用字符名称“\u2622”表示的字符不能在当前代码页(936)中表示出来
+C:\Users\Lenovo\Desktop\C语言俄罗斯方块\俄罗斯方块\俄罗斯方块\game.c(503,14): warning C4566: 由通用字符名称“\uFE0F”表示的字符不能在当前代码页(936)中表示出来
+C:\Users\Lenovo\Desktop\C语言俄罗斯方块\俄罗斯方块\俄罗斯方块\game.c(733,22): warning C4028: 形参 1 与声明不同
+  俄罗斯方块.vcxproj -> C:\Users\Lenovo\Desktop\C语言俄罗斯方块\俄罗斯方块\x64\Debug\俄罗斯方块.exe

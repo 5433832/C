@@ -1,0 +1,52 @@
+将输出文字在指定位置输出
+  //定义句柄变量
+  HANDLE g_ConsoloOutPut;
+  //定义结构体变量pos并对其赋值来设置光标位置
+  COORD pos = { 5, 15 };
+  //获取句柄
+  g_ConsoloOutPut = GetStdHandle(STD_OUTPUT_HANDLE);
+  //移动光标到pos指定的位置
+  SetConsoleCursorPosition(g_ConsoloOutPut, pos);
+  printf("welcome!\n");
+  //关闭句柄
+  CloseHandle(g_ConsoloOutPut);
+
+
+计算处理一个程序花了多长时间利用clock函数
+ //定义两个存储处理器时间类型的变量用来存储时间戳信息
+clock_t time_now, time_end;
+double temp;
+  //记录第一调用的时间
+time_now = clock();
+printf("第一次开始循环的时间：%ld", time_now);
+for (int i = 0; i < 100; i++)
+  {
+    //记录调用结束时间
+    time_end = clock();
+    printf("第%d次调用的结束时间：%ld", i+1,time_end);
+    //CLOCKS_PER_SEC为一秒内CPU时钟周期数，(time_end - time_now) / CLOCKS_PER_SEC通过这个式子可以得到以秒为单位的量
+    temp = (double)(time_end - time_now) / CLOCKS_PER_SEC;
+    printf("你好%f\n", temp);
+  }
+  time_end = (double)clock();
+  printf("循环结束时间：%ld", time_end);
+  //CLOCKS_PER_SEC为一秒内CPU时钟周期数，(time_end - time_now) / CLOCKS_PER_SEC通过这个式子可以得到以秒为单位的量
+  temp = (double)(time_end - time_now) / CLOCKS_PER_SEC;
+  printf("循环占用时间%f\n", temp);
+
+定义方块结构体名为BLOCK
+typedef struct {
+  //方块坐标
+  int x;
+  int y;
+  //方块形状
+  int shape;
+  //方块状态
+  int status;
+  //方块颜色
+  int color;
+}BLOCK;
+
+
+
+
